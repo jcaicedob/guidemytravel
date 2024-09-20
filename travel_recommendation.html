@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GuideMyTravel</title>
+    <link rel="stylesheet" href="./travel_recommendation.css">
+</head>
+
+<body>
+    <nav>
+        <img src="./images/travel.png" alt="Travel">
+        <h1>GuideMyTravel</h1>
+        <ul>
+            <li><a href="./travel_recommendation.html" id="home">Home</a></li>
+            <li><a href="./about_us.html" id="about_us">About Us</a></li>
+            <li><a href="./contact_us.html" id="contact_us">Contact Us</a></li>
+            <li><input type="text" id="searchInput" placeholder="Destination or Keyword"></li>
+            <li><button id='btnSearch'>Search</button></li>
+            <li><button id='btnClear'>Clear</button></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="pages-shared homepage">
+        <div class="homepage-txt">
+            <h2>Find and explore <br> your next destination </h2>
+            <p>
+                Best Places, Restaurants, Hotels and many more suggestions for you in just one click
+            </p><br>
+        </div>
+        <div id="results" class="results-container">
+            <!-- Search results will be displayed here -->
+        </div>
+    </section>
+    <script src="travel_recommendation.js"></script>
+</body>
+
+</html>

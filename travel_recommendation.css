@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar 
+======================================*/
+
+nav {
+    background-color: #0c0c0c;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkgrey;
+    font-weight: bold;
+}
+nav h1 {
+    color: rgb(4, 233, 250);
+    font-size: 32px;
+}
+
+/* Form Elements
+======================================*/
+button {
+    padding: 7px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Results Container */
+.results-container {
+    width: 50%;
+    margin: auto;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styled container for each result */
+.result-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.result-item h2 {
+    background-color: #0073e6;
+    color: white;
+    margin: 0;
+    padding: 15px;
+}
+
+.result-item img {
+    width: 100%;
+    height: auto;
+}
+
+.result-item p {
+    padding: 15px;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+}
+
+/* If no match is found */
+.no-result {
+    font-size: 18px;
+    margin: auto;
+}
+
+/* Background image adjustments
+======================================*/
+.pages-shared {
+    position: relative;
+    background-position:center;
+    background-size:cover;
+    text-align: center;
+    height:800px;
+    z-index: 1;
+}
+
+/* Home Page
+======================================*/
+.homepage {
+    background:url(./images/banner.jpg)no-repeat;
+}
+
+.homepage-txt { padding-top: 70px;}
+
+.homepage-txt h2 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    line-height: 1.4;
+}
+.homepage-txt p {
+    font-size: 18px;
+    color: #1606f8;
+    margin-top: 50px;
+}
+
+.home-container {
+    font-size: 18px;
+}
+/* About Us 
+========================================*/
+.about {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.about h1 {
+    font-size: 48px;
+}
+
+.about-left-column {
+    flex: 1;
+    background: white;
+}
+
+.about-right-column {
+    flex: 1;
+    border-left: 1px solid #ddd;
+    background:url(./images/about_bkg.jpg)no-repeat;
+    padding: 20px;
+}
+
+.about-employee {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #fff;
+}
+
+.about-employee-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+/* Contact Us
+========================================*/
+.contact {
+    background:url(./images/sydney.jpg)no-repeat;
+}
+
+.container {
+    background: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+.container h1 {
+    font-size: 48px;
+}
+
+.container label {
+    display: block;
+    margin: auto;
+    color: #555;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
